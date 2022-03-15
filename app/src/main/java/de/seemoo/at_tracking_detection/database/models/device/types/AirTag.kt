@@ -127,7 +127,7 @@ class AirTag(val id: Int) : Device(), Connectable {
                 .setManufacturerData(
                     0x4C,
                     byteArrayOf((0x12).toByte(), (0x19).toByte(), (0x10).toByte()),
-                    byteArrayOf((0xFF).toByte(), (0xFF).toByte(), (0x18).toByte())
+                    byteArrayOf((0xFF).toByte(), (0xFF).toByte(), (0x30).toByte())
                 )
                 .build()
 

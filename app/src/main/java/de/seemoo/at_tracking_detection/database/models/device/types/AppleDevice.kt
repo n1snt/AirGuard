@@ -26,7 +26,7 @@ class AppleDevice(val id: Int) : Device() {
                 .setManufacturerData(
                     0x4C,
                     byteArrayOf((0x12).toByte(), (0x19).toByte(), (0x00).toByte()),
-                    byteArrayOf((0xFF).toByte(), (0xFF).toByte(), (0x18).toByte())
+                    byteArrayOf((0xFF).toByte(), (0xFF).toByte(), (0x30).toByte())
                 )
                 .build()
 
